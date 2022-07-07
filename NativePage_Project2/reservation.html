@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Agency Website Create</title>
+  <!----CSS link----->
+  <link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+  <div class="hero">
+    <video playsinline autoplay muted loop src="./image/dabble.mp4"></video>
+    <div class="overlay"></div>
+    <nav>
+      <img src="govtlogo.png" class="logo">
+      <ul>
+        <li><a href="#HOME">Main</a></li>
+        <li><a href="#INFO">About</a></li>
+        <li><a href="#FOOD">Service</a></li>
+
+
+        <li><a href="homepage.html">Back to Home</a></li>
+      </ul>
+    </nav>
+    <a id="HOME"></a>
+
+    <div class="content">
+      <span class="title"></span>
+      <h1 style="color: black;">BORN IN AN ERA OF GLAMAROUS TRAVEL WE BELIVES</h1><br>
+      <h1 style="color: aliceblue"></h1>
+      <H1> EVERY ONE SHOULD EXPLORETHE WORLD IN STYLE</h1>
+      <p style="color: black;">PLAYFUL SOPHISTICATION MEETS <br>
+        TIMELESS CHIC DESIGN .</p>
+      <a href="#explo" class="btn">Explore More</a><br>
+    </div>
+  </div> <A id="explo"></A>
+
+  <div class="row">
+    <div class="column" style="opacity: 0.9;">
+      <div class="card">
+        <img src="hotel001.jpg" width="195px" height="140px">
+        <a id="INFO"></a>
+        <p><b>
+            <h3></h3>
+          </b></p>
+        <p>
+        <H2>
+          <P style="color: white;">HOTELS</P>
+        </H2>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style="opacity: 0.9;">
+        <div class="card">
+          <img src="FOOD 2.jpg" width="195px" height="140px">
+
+          <p><b>
+              <h3></h3>
+            </b></p>
+          <p>
+          <H2>
+            <P style="color: white;">FOOD</P>
+          </H2>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column" style="opacity: 0.9;">
+          <div class="card">
+            <img src="TRAVELL.jpg" width="195px" height="140px">
+
+            <p><b>
+                <h3></h3>
+              </b></p>
+            <p>
+            <H2>
+              <P style="color: white;">TRAVEL</P>
+            </H2>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column" style="opacity: 0.9;">
+            <div class="card">
+              <img src="explore.jpg" width="195px" height="140px">
+
+              <p><b>
+                  <h3></h3>
+                </b></p>
+              <p>
+              <H2>
+                <P style="color: white;">EXPLORE</P>
+              </H2>
+              </p>
+            </div>
+          </div>
+
+        </div><BR><br>
+        <div class="row">
+          <div class="col" style="opacity: 0.9;">
+            <div class="card">
+              <H2>
+                <P style="color: white;"><u>HOTELS IN PALAKKAD</u></P>
+              </H2><BR>
+              <img src="R1.jpg" width="195px" height="140px">
+              <img src="R11.jpg" width="195px" height="140px">
+              <H3 style="color: white;"> HELLVIDA </H3><br>
+              <img src="R2.jpG" width="195px" height="140px">
+              <img src="R22.jpg" width="195px" height="140px">
+              <H3 style="color: white;"> ALRIDA </H3><br>
+              <img src="R3.jpG" width="195px" height="140px">
+              <img src="R33.jpg" width="195px" height="140px">
+              <H3 style="color: white;"> DIGA </H3><br>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="colo" style="opacity: 0.9;">
+            <div class="card">
+              <H2>
+                <P style="color: white;"><u>ROOM AND SERVICES</u></P>
+              </H2><BR>
+              <img src="ROM1.jpg" width="195px" height="140px">
+              <img src="N1.jpG" width="195px" height="140px">
+              <img src="N2.jpg" width="195px" height="140px">
+              <H3 style="color: white;"><input type="radio" id="m" onclick="abc()" name="gen" value="Men" />
+                <label for="men">NORMAL</label>
+              </H3><BR>
+              <img src="ROM2.jpg" width="195px" height="140px">
+              <img src="DD1.jpg" width="195px" height="140px">
+              <img src="DD2.jpg" width="195px" height="140px">
+              <H3 style="color: white;"><input type="radio" id="me" onclick="abc1()" name="gen" value="Men" />
+                <label for="men">DULEX</label>
+              </H3><BR>
+              <img src="ROM3.jpg" width="195px" height="140px">
+              <img src="S1.jpg" width="195px" height="140px">
+              <img src="S2.jpg" width="195px" height="140px">
+              <H3 style="color: white;"><input type="radio" id="men" onclick="abc2()" name="gen" value="Men" />
+                <label for="men">SUTEROOM</label>
+              </H3><BR>
+
+              <label for="rooms" style="color: white;">ROOM AMOUNT: </label>
+              <input type="number" id="rooms" readonly>
+
+              <label for="person" style="color: white;">No.OF PERSONS: </label>
+              <input type="number" oninput="multi()" id="person">
+              <br><br>
+              <CENTER>
+                <label for="total" style="color: white;">TOTAL AMOUNT: </label>
+                <input type="number" id="total" readonly>
+              </CENTER>
+              <br>
+              <br>
+              <a id="FOOD"></a>
+            </div>
+          </div>
+        </div>
+        <div class="coll" style="opacity: 0.9;">
+          <div class="card">
+            <H2>
+              <P style="color: white;"><u>FOOD</u></P>
+            </H2><BR>
+            <H3>
+              <P style="color: white;">BREAKFAST (VEG/NON-VEG)</P><BR>
+            </H3><input type="radio" id="m" onclick="AAA()" name="gen" value="Men" />
+            <label for="men"><b style="color: white;">VEG</b></label> <input type="radio" id="m" onclick="BBB()"
+              name="gen" value="Men" />
+            <label for="men"><B style="color: white;">NON-VEG</B></label> </H3><BR>
+
+            <BR>
+            <img src="veg3.jpg" width="195px" height="140px">
+            <img src="03food.jpg" width="195px" height="140px">
+            <img src="veg2.jpg" width="195px" height="140px">
+            <img src="veg1.jpg" width="195px" height="140px">
+            <img src="veg5.jpg" width="195px" height="140px">
+            <img src="nv1.jpg" width="195px" height="140px">
+            <H3 style="color: white;">
+              <H3>
+                <P style="color: white;"><BR>LUNCH (VEG/NON-VEG)</P><BR>
+              </H3><input type="radio" id="m" onclick="CCC()" name="gen" value="Men" />
+              <label for="men"><b style="color: white;">VEG</b></label> <input type="radio" id="m" onclick="DDD()"
+                name="gen" value="Men" />
+              <label for="men"><B style="color: white;">NON-VEG</B></label>
+            </H3><BR></H3><BR>
+            <img src="v1.jpg" width="195px" height="140px">
+            <img src="v2.jpg" width="195px" height="140px">
+            <img src="v3.jpg" width="195px" height="140px">
+            <img src="v4.jpg" width="195px" height="140px">
+            <img src="v5.jpg" width="195px" height="140px">
+            <img src="v6.jpg" width="195px" height="140px">
+            <BR></BR>
+
+            <H3>
+              <P style="color: white;"><BR>DINNER (VEG/NON-VEG)</P><BR>
+            </H3><input type="radio" id="m" onclick="EEE()" name="gen" value="Men" />
+            <label for="men"><b style="color: white;">VEG</b></label> <input type="radio" id="m" onclick="FFF()"
+              name="gen" value="Men" />
+            <label for="men"><B style="color: white;">NON-VEG</B></label> </H3><BR></H3><BR>
+            <img src="d1.jpg" width="195px" height="140px">
+            <img src="d2.jpg" width="195px" height="140px">
+            <img src="d3.jpg" width="195px" height="140px">
+            <img src="d4.jpg" width="195px" height="140px">
+            <img src="d5.jpg" width="195px" height="140px">
+            <img src="d6.jpg" width="195px" height="140px"><BR></BR>
+
+            <label for="food" style="color: white;">BREAKFAST: </label>
+            <input type="number" id="food" readonly>
+            <label for="food2" style="color: white;">LUNCH: </label>
+            <input type="number" id="food2" readonly>
+            <label for="food3" style="color: white;">DINNER: </label>
+            <input type="number" id="food3" readonly>
+            <button for="ttl" onclick="ADC()" style="color: white;"><B>TOTAL</B> </button>
+            <input type="number" id="ttl">
+
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="coli" style="opacity: 0.9;">
+          <div class="card">
+            <H2>
+              <P style="color: white;"><u>VEHICLES</u></P>
+            </H2><BR>
+            <img src="POLO.jpg" width="195px" height="140px">
+            <H3 style="color: white;">
+              <input type="radio" id="m" onclick="MINI()" name="gender" value="Men">MINI CAR
+            </H3>
+            <H4>(MAX 5 PERSONS,INCLUDING KIDS)</H4>
+            </P> <BR>
+            <img src="XUV.jpg" width="195px" height="140px">
+            <H3 style="color: white;">
+              <input type="radio" id="m" onclick="XUV()" name="gender" value="Men">XUV CAR
+            </H3>
+            <H4>(MAX 8 PERSONS,INCLUDING KIDS)</H4>
+            </P> <BR>
+            <img src="BIKE.jpg" width="195px" height="140px">
+            <H3 style="color: white;">
+              <input type="radio" id="m" onclick="BIKE()" name="gender" value="Men">BIKE
+            </H3>
+            <H4>(MAX 2 PERSONS ONLY)</H4>
+            </P><BR></H3><BR>
+
+            <label for="CAR" style="color: white;">AMOUNT</label>
+            <input type="number" id="CAR" readonly>
+            <label for="counts" style="color: white;">NO.OF.PERSONS</label>
+            <input type="number" oninput="multii()" id="counts">
+
+            <label for="jeep" style="color: white;"> TOTAL AMOUNT</label>
+            <input type="number" id="jeep" readonly>
+
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="coloo" style="opacity: 0.9;">
+            <div class="card">
+              <H2>
+                <P style="color: white;"><u>FINAL AMOUNT</u></P>
+              </H2><BR>
+
+              <button type="button" onclick="bbnn()">CLICK HERE</button>
+              <input type="number" id="final" readonly>
+              <label for="person" style="color: white;">No.OF PERSONS: </label>
+              <input type="number" oninput="muti()" id="fin"><br>
+              <br>
+              <center>
+              <label for="person" style="color: white;">PAY: </label>
+              <input type="number" id="pers" readonly>
+              
+              </center>
+
+            </div>
+          </div>
+        </div>
+        <SCRIPT>
+          function muti(){
+          
+var p= document.getElementById("final").value;
+var e=  document.getElementById("fin").value;
+var v=e * p;
+document.getElementById("pers").value=v;
+          }
+
+          function abc() {
+            document.getElementById("rooms").value = 2000;
+
+
+          }
+          function abc1() {
+            document.getElementById("rooms").value = 3000;
+
+          }
+
+          function abc2() {
+            document.getElementById("rooms").value = 4000;
+
+          }
+
+          function multi() {
+            var x = document.getElementById("person").value;
+
+            var y = document.getElementById("rooms").value;
+
+            var z = x * y;
+            document.getElementById("total").value = z;
+          }
+          function AAA() {
+            document.getElementById("food").value = 150;
+          }
+          function BBB() {
+            document.getElementById("food").value = 300;
+          }
+          function CCC() {
+            document.getElementById("food2").value = 250;
+          }
+          function DDD() {
+            document.getElementById("food2").value = 500;
+          }
+          function EEE() {
+            document.getElementById("food3").value = 200;
+          }
+          function FFF() {
+            document.getElementById("food3").value = 400;
+          }
+          function ADC() {
+            var a = document.getElementById("food").value;
+            var b = document.getElementById("food2").value;
+            var c = document.getElementById("food3").value;
+            var e = (+a) + (+b) + (+c);
+            document.getElementById("ttl").value = e;
+
+          }
+          function MINI() {
+            document.getElementById("CAR").value = 4500;
+          }
+          function XUV() {
+            document.getElementById("CAR").value = 7000;
+          }
+          function BIKE() {
+            document.getElementById("CAR").value = 800;
+            alert("2 persons only")
+
+          }
+          function multii() {
+            var a = document.getElementById("CAR").value;
+            var b = document.getElementById("counts").value;
+
+            var z = a * b;
+
+            document.getElementById("jeep").value = z;
+
+          }
+          function bbnn() {
+
+            var x = document.getElementById("total").value;
+
+            var e = document.getElementById("ttl").value;
+
+            var z = document.getElementById("jeep").value;
+
+            var r = (+x) + (+z) + (+e);
+            alert(r)
+            document.getElementById("final").value = r;
+          }
+
+        </SCRIPT>
+
+
+
+      </div>
+    </div>
+  </div>
